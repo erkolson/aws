@@ -41,3 +41,5 @@ end
 
 # allow use of the old aws_access_key_id property
 alias_method :aws_access_key_id, :aws_access_key
+# support legacy bucket_region property
+alias_method :bucket_region, :region
